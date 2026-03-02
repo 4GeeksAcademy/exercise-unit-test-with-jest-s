@@ -17,6 +17,7 @@ function fromEuroToDollar(euros){
 function fromYenToPound (yenes){
     let yenALibras = (yenes / unEuro["JPY"]) * unEuro["GBP"] 
     return  Number(yenALibras.toFixed(3));
-}1
+}
+
 
 module.exports = {fromDollarToYen, fromEuroToDollar, fromYenToPound};
